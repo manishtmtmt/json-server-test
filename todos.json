@@ -1,14 +1,16 @@
 {
-  "todos": [
-    {
-      "id": 1,
-      "title": "todo1",
-      "isCompleted": false
-    },
-    {
-      "id": 1,
-      "title": "todo1",
-      "isCompleted": false
-    }
-  ]
+  "data": {
+    "todos": [
+      {
+        "id": 1,
+        "title": "todo1",
+        "isCompleted": false
+      },
+      {
+        "id": 1,
+        "title": "todo1",
+        "isCompleted": false
+      }
+    ]
+  }
 }
