@@ -4,7 +4,7 @@ const path = require("path"); // Don't forget to require path module
 const server = jsonServer.create();
 
 // Use __dirname to locate db.json correctly
-const db = JSON.parse(fs.readFileSync(path.join(__dirname, "db.json")));
+const db = JSON.parse(fs.readFileSync(path.join(__dirname, "todos.json")));
 const router = jsonServer.router(db);
 const middlewares = jsonServer.defaults();
 
